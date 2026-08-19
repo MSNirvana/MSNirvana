@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 240" role="img">
+  <title>GGOOAI 凸星人工作台</title>
+  <style>
+    :root { color-scheme: light; }
+    text { font-family: Arial, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+    .ink { fill: #0A0A0B; }
+    .muted { fill: #62666D; }
+    .red { fill: #F1281B; }
+    .paper { fill: #F7F8FA; }
+    .line { stroke: #D9DDE3; stroke-width: 2; }
+    .mono { font-family: "SFMono-Regular", Consolas, monospace; letter-spacing: 1.6px; }
+    
+      .float-a { animation: float-a 5.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .float-b { animation: float-b 6.8s ease-in-out .5s infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 4.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .route { stroke-dasharray: 14 18; animation: route 4.5s linear infinite; }
+      .scan { animation: scan 5.5s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes float-a { 0%,100% { transform: translateY(0); } 45% { transform: translateY(-12px); } 70% { transform: translateY(-4px); } }
+      @keyframes float-b { 0%,100% { transform: translateY(0) rotate(0deg); } 42% { transform: translateY(-10px) rotate(-2deg); } 72% { transform: translateY(-3px) rotate(1deg); } }
+      @keyframes blink { 0%,78%,100% { opacity: 1; } 82%,88% { opacity: .2; } }
+      @keyframes route { to { stroke-dashoffset: -64; } }
+      @keyframes scan { 0%,100% { transform: translateX(0); opacity: .25; } 48% { transform: translateX(780px); opacity: 1; } 55% { opacity: .1; } }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.15); } }
+      @media (prefers-reduced-motion: reduce) {
+        .float-a, .float-b, .blink, .route, .scan, .pulse { animation: none; }
+      }
+    
+  </style>
+  
+  <rect x="0" y="0" width="1100" height="240" rx="8" fill="#0A0A0B" />
+  <text x="42" y="56" font-size="31" class="paper"  font-weight="800">正在构建</text><text x="206" y="56" font-size="16" class="red mono"  font-weight="700"> / BUILDING NOW</text>
+  <text x="42" y="92" font-size="19"  fill="#D9DDE3" font-weight="500">把公开仓库当作持续交付的工作台。</text>
+  <rect x="42" y="124" width="316" height="76" rx="6" fill="#17191C" stroke="#34383E"/><text x="60" y="156" font-size="20" class="paper"  font-weight="800">Open_GGOO</text><text x="60" y="182" font-size="15" class="mono" fill="#A9AFB8" >SHELL · ★ 1</text><text x="324" y="170" font-size="22" class="red"  font-weight="700">↗</text>
+  <rect x="392" y="124" width="316" height="76" rx="6" fill="#17191C" stroke="#34383E"/><text x="410" y="156" font-size="20" class="paper"  font-weight="800">ZeroWalk</text><text x="410" y="182" font-size="15" class="mono" fill="#A9AFB8" >CSS · ★ 0</text><text x="674" y="170" font-size="22" class="red"  font-weight="700">↗</text>
+  <rect x="742" y="124" width="316" height="76" rx="6" fill="#17191C" stroke="#34383E"/><text x="760" y="156" font-size="20" class="paper"  font-weight="800">Tooken</text><text x="760" y="182" font-size="15" class="mono" fill="#A9AFB8" >PYTHON · ★ 0</text><text x="1024" y="170" font-size="22" class="red"  font-weight="700">↗</text>
+
+</svg>
