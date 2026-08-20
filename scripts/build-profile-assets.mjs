@@ -94,10 +94,6 @@ const heroBody = ({ animated }) => `
     ${text("AI × Crypto Builder  /  凸星人饲养员", 82, 486, 21, "ink mono", 'font-weight="700"')}
     <circle cx="62" cy="478" r="7" class="red pulse"/>
   </g>
-  <path d="M 340 370 C 580 362, 720 330, 1020 315" stroke="#F1281B" stroke-width="3" fill="none" opacity=".72" class="${animated ? "route" : ""}"/>
-  <g class="${animated ? "float-a" : ""}">${rounded(1028, 62, 184, 246, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/open-explorer.png", 1040, 78, 160, 214)}</g>
-  <g class="${animated ? "float-b" : ""}">${rounded(1437, 14, 224, 274, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/robot-coder.png", 1450, 28, 198, 246)}</g>
-  <g class="${animated ? "float-a" : ""}">${rounded(1200, 286, 165, 204, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/workflow-unlocker.png", 1210, 300, 145, 182)}</g>
   <g opacity=".94">${rounded(1008, 442, 620, 52, "#0A0A0B", 26, 'opacity=".86"')}${text("LIVE SYSTEM  /  USE → DISCOVER → BUILD → TRANSFORM", 1042, 476, 18, "paper mono", 'font-weight="700"')}</g>
 `;
 
@@ -117,10 +113,6 @@ const mobileHeroBody = ({ animated }) => `
   ${text("AI × Crypto Builder", 46, 240, 25, "muted", 'font-weight="600"')}
   ${rounded(44, 270, 238, 54, "#0A0A0B", 4)}
   ${text("进入 GGOOAI  ↗", 70, 307, 27, "paper", 'font-weight="700"')}
-  <path d="M 120 382 C 240 362, 380 340, 540 330" stroke="#F1281B" stroke-width="3" fill="none" opacity=".72" class="${animated ? "route" : ""}"/>
-  <g class="${animated ? "float-a" : ""}">${rounded(400, 208, 162, 218, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/open-explorer.png", 410, 220, 142, 187)}</g>
-  <g class="${animated ? "float-b" : ""}">${rounded(530, 310, 156, 192, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/robot-coder.png", 540, 322, 136, 170)}</g>
-  <g class="${animated ? "float-a" : ""}">${rounded(278, 458, 126, 158, "#FFFFFF", 10, 'stroke="#D9DDE3" stroke-width="2"')}${img("../characters/workflow-unlocker.png", 286, 470, 110, 138)}</g>
   ${rounded(42, 680, 636, 58, "#0A0A0B", 29, 'opacity=".9"')}
   ${text("USE  ·  DISCOVER  ·  BUILD  ·  TRANSFORM", 76, 718, 23, "paper mono", 'font-weight="700"')}
 `;
