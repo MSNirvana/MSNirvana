@@ -14,10 +14,11 @@ const requiredLinks = [
   "https://open.ggoo.ai",
   "https://build.ggoo.ai",
   "https://www.zerowalk.ai",
-  "https://x.com/GGOOAI",
-  "https://github.com/MSNirvana/Open_GGOO",
-  "https://github.com/MSNirvana/ZeroWalk",
-  "https://github.com/MSNirvana/Tooken"
+  "https://x.com/GSNirvana",
+  "https://github.com/MSNirvana/Tooken",
+  "https://github.com/MSNirvana/github-skill-video-maker",
+  "https://github.com/MSNirvana/codex-ip-theme",
+  "https://github.com/MSNirvana/ai-diagnostic"
 ];
 for (const link of requiredLinks) if (!readme.includes(link)) errors.push(`README is missing ${link}`);
 

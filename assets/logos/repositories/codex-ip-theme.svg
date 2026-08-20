@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Codex IP Theme">
+  <rect width="512" height="512" rx="112" fill="#101010"/>
+  <path d="M86 256c43-84 102-112 170 0s127 84 170 0c-43-84-102-112-170 0S129 340 86 256Z"
+        fill="none" stroke="#ff2823" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="166" cy="256" r="14" fill="#fff"/>
+  <circle cx="346" cy="256" r="14" fill="#fff"/>
+  <circle cx="166" cy="256" r="31" fill="none" stroke="#ff2823" stroke-opacity=".5" stroke-width="8"/>
+  <circle cx="346" cy="256" r="31" fill="none" stroke="#ff2823" stroke-opacity=".5" stroke-width="8"/>
+</svg>
